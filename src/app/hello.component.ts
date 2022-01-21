@@ -2,7 +2,7 @@ import { Component, Input, OnInit, OnDestroy } from '@angular/core';
 import { BaseComponent } from './base-component';
 import { AppService } from './app.service';
 import { Subscription } from 'rxjs/Subscription';
-import { AutoUnsubscribe } from './auto-un-sun';
+import { AutoUnsubscribe } from './auto-un-sub';
 
 @AutoUnsubscribe()
 @Component({
